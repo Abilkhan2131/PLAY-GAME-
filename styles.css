@@ -1,0 +1,82 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b2838;
+    color: white;
+}
+
+header {
+    background-color: #171a21;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #00d1b2;
+}
+
+.hero {
+    background-color: #1c1f25;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.games {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.game-card {
+    background-color: #2c2f36;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.game-card h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #171a21;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
